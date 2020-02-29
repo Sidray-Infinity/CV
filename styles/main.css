@@ -7726,6 +7726,19 @@ Created using IcoMoon - icomoon.io
     font-size: 18px;
 }
 
+#first_column,
+#second_column {
+    width: 62%;
+}
+
+#first_column {
+    float: left;
+}
+
+#first_column {
+    float: right;
+}
+
 .progress-container .progress-bar {
     height: 5px;
     -webkit-transform: scaleX(0);
