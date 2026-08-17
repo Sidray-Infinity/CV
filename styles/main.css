@@ -7870,3 +7870,15 @@ a.credit {
 .section {
     padding-bottom: 0;
 }
+/* Company logos in the experience section */
+.cc-company-logo {
+    display: block;
+    height: 46px;
+    width: auto;
+    max-width: 140px;
+    margin: 0 auto 14px;
+    padding: 6px 10px;
+    background: #fff;
+    border-radius: 6px;
+    object-fit: contain;
+}
