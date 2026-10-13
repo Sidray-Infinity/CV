@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -13,869 +13,378 @@
 	</script>
 
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Siddharth Panda</title>
+	<title>Siddharth Panda — Senior Software Engineer</title>
 	<meta name="description"
-		content="Siddharth Panda - Senior Software Engineer at LinkedIn. Building large scale streaming and data infrastructure with Flink, Kafka, Go and Java." />
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/aos.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="styles/main.css" rel="stylesheet">
+		content="Siddharth Panda — Senior Software Engineer at LinkedIn. I own problems end to end and ship quality systems across fintech, real-time infrastructure and ML." />
+	<meta name="theme-color" content="#0a0c10">
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x2='1' y2='1'%3E%3Cstop stop-color='%237aa2ff'/%3E%3Cstop offset='1' stop-color='%2334d3b4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='26' fill='%230a0c10'%3ESP%3C/text%3E%3C/svg%3E">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+	<link href="styles/main.css?v=6" rel="stylesheet">
+	<script>document.documentElement.classList.add('js');</script>
+	<script src="scripts/main.js?v=2" defer></script>
 </head>
 
 <body id="top">
-	<header>
-		<div class="profile-page sidebar-collapse">
-			<nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-				<div class="container">
-					<div class="navbar-translate"><a class="navbar-brand smooth-scroll" href="#top" rel="tooltip">Siddharth
-							Panda</a>
-						<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-							aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span
-								class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
-								class="navbar-toggler-bar bar3"></span></button>
-					</div>
-					<div class="collapse navbar-collapse justify-content-end" id="navigation">
-						<ul class="navbar-nav">
-							<li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-							<li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-							<li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-							<li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
-							<li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
-							<li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-						</ul>
-					</div>
-				</div>
+	<a class="skip-link" href="#main">Skip to content</a>
+
+	<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+		<symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+		<symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+		<symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.59-6.64 7.59H.47l8.6-9.83L0 1.15h7.6l5.24 6.93 6.06-6.93Zm-1.29 19.5h2.04L6.49 3.24H4.3l13.31 17.41Z"/></symbol>
+		<symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+		<symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></g></symbol>
+		<symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+		<symbol id="i-arrow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></g></symbol>
+		<symbol id="i-external" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></g></symbol>
+	</svg>
+
+	<header class="nav">
+		<div class="container nav-inner">
+			<a class="brand" href="#top" aria-label="Siddharth Panda, back to top">
+				<span class="brand-mark" aria-hidden="true">SP</span>
+				<span class="brand-name">Siddharth Panda</span>
+			</a>
+			<nav aria-label="Primary">
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
 			</nav>
+			<a class="btn btn-sm nav-cta" href="data/Siddharth_Panda_Resume.pdf" target="_blank" rel="noopener">Resume</a>
 		</div>
 	</header>
-	<div class="page-content">
-		<div>
-			<div class="profile-page">
-				<div class="wrapper">
-					<div class="page-header page-header-small" filter-color="green">
-						<div class="page-header-image" data-parallax="true" style="background-image: url('images/bg.jpg');"></div>
-						<div class="container">
-							<div class="content-center">
-								<div class="cc-profile-image"><a href="#"><img src="images/siddharth.jpeg" alt="Image" /></a></div>
-								<div class="h2 title">Siddharth Panda</div>
-								<p class="category text-white">Senior Software Engineer at LinkedIn</p><a
-									class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
-									data-aos-anchor="data-aos-anchor">Get in Touch</a><a class="btn btn-primary" target="_blank"
-									href="data/Siddharth_Panda_Resume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download
-									CV</a>
-							</div>
-						</div>
-						<div class="section">
-							<div class="container">
-								<div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
-										href="https://www.linkedin.com/in/siddharthpandaa/" target="_blank" rel="tooltip"
-										title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a><a
-										class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sidray-Infinity"
-										target="_blank" rel="tooltip" title="Follow me on GitHub"><i class="fa fa-github"></i></a><a
-										class="btn btn-default btn-round btn-lg btn-icon" href="https://x.com/SiddhartPanda09"
-										target="_blank" rel="tooltip" title="Follow me on X"><i class="fa fa-twitter"></i></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section" id="about">
-				<div class="container">
-					<div class="card" data-aos="fade-up" data-aos-offset="10">
-						<div class="row">
-							<div class="col-lg-6 col-md-12">
-								<div class="card-body">
-									<div class="h4 mt-0 title">About</div>
-									<p>Hello! I am Siddharth Panda, a Senior Software Engineer at LinkedIn working on
-										the instrumentation and stream processing platforms that carry over a trillion
-										events every day.</p>
-									<p>My work sits close to the metal of large scale data infrastructure — Apache Flink,
-										Kafka, Spark and Kubernetes — with a focus on building platforms that make complex
-										pipelines simple for the teams that depend on them.</p>
-									<p>Before LinkedIn I spent three years at Grab building lending and payments systems.
-										I enjoy distributed systems, clean abstractions and problems where correctness and
-										scale both matter. <a href="data/Siddharth_Panda_Resume.pdf" target="_blank">Download my
-											resume</a></p>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-12">
-								<div class="card-body">
-									<div class="h4 mt-0 title">Basic Information</div>
-									<div class="row">
-										<div class="col-sm-4"><strong class="text-uppercase">Role:</strong></div>
-										<div class="col-sm-8">Senior Software Engineer, LinkedIn</div>
-									</div>
-									<div class="row mt-3">
-										<div class="col-sm-4"><strong class="text-uppercase">Location:</strong></div>
-										<div class="col-sm-8">Bangalore, India</div>
-									</div>
-									<div class="row mt-3">
-										<div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-										<div class="col-sm-8"><a href="mailto:sidkiit12@gmail.com">sidkiit12@gmail.com</a></div>
-									</div>
-									<div class="row mt-3">
-										<div class="col-sm-4"><strong class="text-uppercase">Profiles:</strong></div>
-										<div class="col-sm-8"><a href="https://www.linkedin.com/in/siddharthpandaa/"
-												target="_blank">LinkedIn</a> &middot; <a href="https://github.com/Sidray-Infinity"
-												target="_blank">GitHub</a> &middot; <a href="https://x.com/SiddhartPanda09"
-												target="_blank">X</a></div>
-									</div>
-									<div class="row mt-3">
-										<div class="col-sm-4"><strong class="text-uppercase">Languages:</strong></div>
-										<div class="col-sm-8">English, Hindi, Odiya</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section" id="skill">
-				<div class="container">
-					<div class="h4 text-center mb-4 title">Professional Skills</div>
-					<div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-						<div class="card-body">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Distributed Systems</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-												aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Stream Processing (Flink, Samza)</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-												aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Backend Engineering (Go, Java)</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-												aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Event Driven Architecture (Kafka)</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-												aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Data & Batch Processing (Spark, Airflow)</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-												aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Cloud Native (Kubernetes, Docker, CI/CD)</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-												aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">Platform & API Design</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-												aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="progress-container progress-primary"><span class="progress-badge">AI Assisted Development</span>
-										<div class="progress">
-											<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-												data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-												aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-						<div class="card-body">
-							<div class="h5 mt-0 title">Technologies &amp; Tools</div>
-							<p class="mb-1"><strong>Languages:</strong> Golang, Java, Python, Scala, C++, Rust, Bash</p>
-							<p class="mb-1"><strong>Data &amp; Streaming:</strong> Apache Flink, Apache Kafka, Apache Samza, Apache Spark,
-								Airflow, Schema Registry, HDFS</p>
-							<p class="mb-1"><strong>Infrastructure:</strong> Kubernetes, Docker, CI/CD, MySQL, ElasticSearch</p>
-							<p class="mb-0"><strong>Ways of working:</strong> Agile, Event Driven Architecture, Distributed Systems,
-								GitHub Copilot, Cursor IDE, AI assisted code generation</p>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<!-- <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Recent Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Web Advertising Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="graphic-design" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Triangle Pattern</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Umbrella</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Cube Surface Texture</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Line</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="Photography" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Wedding Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Beach Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-		</div>
-	</div>
-	<div class="section" id="experience">
-		<div class="container cc-education">
-			<div class="h4 text-center mb-4 title">Work Experience</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>May 2024 - Present</p>
-							<img class="cc-company-logo" src="images/logos/linkedin.svg" alt="LinkedIn logo">
-							<div class="h5">LinkedIn</div>
+	<main id="main">
+		<section class="hero">
+			<div class="container">
+				<div class="hero-grid">
+					<div class="hero-copy">
+						<p class="eyebrow">Senior Software Engineer · LinkedIn</p>
+						<h1>Hi, I'm <span class="grad-text">Siddharth Panda</span>.</h1>
+						<p class="lead">I own problems end to end and ship systems that last — from lending at Grab to
+							real-time infrastructure handling <strong>1T+ events a day</strong> at LinkedIn.</p>
+						<div class="actions">
+							<a class="btn btn-primary" href="#contact">Get in touch <svg class="icon"><use href="#i-arrow" /></svg></a>
+							<a class="btn" href="data/Siddharth_Panda_Resume.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-download" /></svg> Download CV</a>
 						</div>
+						<ul class="socials">
+							<li><a class="icon-btn" href="https://www.linkedin.com/in/siddharthpandaa/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin" /></svg></a></li>
+							<li><a class="icon-btn" href="https://github.com/Sidray-Infinity" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon"><use href="#i-github" /></svg></a></li>
+							<li><a class="icon-btn" href="https://x.com/SiddhartPanda09" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg class="icon"><use href="#i-x" /></svg></a></li>
+							<li><a class="icon-btn" href="mailto:sidkiit12@gmail.com" aria-label="Email"><svg class="icon"><use href="#i-mail" /></svg></a></li>
+						</ul>
 					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Senior Software Engineer</div>
-							<p class="category">Apr 2026 - Present</p>
-							<ul>
-								<li>Created a <b>Managed Event Enrichment Platform</b> that enables modification of Kafka events through configuration driven processes on <b>Apache Flink</b>, reducing user adoption time from ~2 days to ~1 hour.</li>
-								<li>Developed <b>Cost-to-Track</b>, allowing users to monitor the infrastructure cost of instrumentation at multiple levels.</li>
-							</ul>
-							<div class="h5">Software Engineer</div>
-							<p class="category">May 2024 - Mar 2026</p>
-							<ul>
-								<li>Developed and maintained the instrumentation platform supporting over <b>1 trillion daily events</b>, ensuring reliable data pipeline operations across LinkedIn.</li>
-								<li>Led the migration of the stream processing system from <b>Apache Samza to Apache Flink</b>, achieving 97% performance parity by developing 12 parity jobs.</li>
-								<li>Collaborated with the HDFS, Kafka and Schema Registry teams to deliver multiple critical infrastructure solutions, improving system robustness.</li>
-							</ul>
-						</div>
-					</div>
+					<figure class="portrait">
+						<img src="images/siddharth.jpeg" alt="Portrait of Siddharth Panda" width="932" height="1243">
+						<figcaption class="chip"><svg class="icon"><use href="#i-pin" /></svg> Bangalore, India</figcaption>
+					</figure>
 				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>Aug 2021 - May 2024</p>
-							<img class="cc-company-logo" src="images/logos/grab.png" alt="Grab logo">
-							<div class="h5">Grab</div>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Senior Software Engineer</div>
-							<p class="category">Mar 2023 - May 2024</p>
-							<ul>
-								<li>Increased repayment rate by <b>1.2 percentage points</b> by developing a Kafka based notification system, working with product managers to identify user pain points for lending products.</li>
-								<li><b>Loan refinancing:</b> introduced a new method availing a line of credit for DAX partners by restructuring existing loans, raising the disbursal rate by ~S$2M.</li>
-							</ul>
-							<div class="h5">Software Engineer</div>
-							<p class="category">Aug 2021 - Mar 2023</p>
-							<ul>
-								<li>Re-architected the auto-deduction flow, reducing cron job runtime from 1.5 hours to 20 minutes.</li>
-								<li>Set up <b>CI/CD pipelines</b> for all post borrowing microservices, cutting the QA regression cycle from 3 days to 1.5 days.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="h4 text-center mb-4 mt-5 title">Internships</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>May 2021 - Aug 2021</p>
-							<img class="cc-company-logo" src="images/logos/grab.png" alt="Grab logo">
-							<div class="h5">Grab</div>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Software Engineer Intern</div>
-							<p class="category">May 2021 - Aug 2021</p>
-							<ul>
-								<li>Increased test coverage for multiple microservices to ~95%.</li>
-								<li>Collaborated with the Julo team in Indonesia to launch and monitor 2 DAX Cash Loan products, ensuring a stable rollout and user adoption.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>Jul 2020 - Apr 2021</p>
-							<img class="cc-company-logo" src="images/logos/highradius.png" alt="HighRadius Corp. logo">
-							<div class="h5">HighRadius Corp.</div>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Software Engineer Intern</div>
-							<p class="category">AI-Enabled FinTech B2B Invoice Management Application</p>
-							<ul>
-								<li>Developed encryption for user PII data, reducing cloning time from 2 hours to 5 minutes.</li>
-								<li>Built a full stack invoice management application using <b>ReactJS, Java, JSP and JDBC</b>, including a responsive receivables dashboard and customer details page.</li>
-								<li>Integrated and deployed an ML model for predicting the first partial payment amount using Flask.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>May 2019 - Jul 2019</p>
-							<img class="cc-company-logo" src="images/logos/khoslalabs.png" alt="Khosla Labs Pvt. Ltd. logo">
-							<div class="h5">Khosla Labs Pvt. Ltd.</div>
-							<a href="data/internship.pdf" style="color: white;" target="_blank">
-								Internship Certificate</a>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Software Engineer Intern</div>
-							<p class="category">Automatic Document Capture and OCR Module</p>
-							<ul>
-								<li>Built an automatic document capture module to extract identity cards from a frame using <b>OpenCV</b>.</li>
-								<li>Integrated the module with the <b>Google Vision API</b> to perform OCR on the captured card, along with a parser to identify field types from the OCR output.</li>
-								<li>Combined the modules into an <b>Android application</b>.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="section" id="education">
-		<div class="container cc-education">
-			<div class="h4 text-center mb-4 title">Education</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>2017 - 2021</p>
-							<div class="h5">Bachelors's Degree</div>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Bachelor of Technology (CSE)</div>
-							<p class="category">Kalinga Institute of Industrial Technology, Bhubaneswar</p>
-							<p>Graduated with a B. Tech in Computer Science and Engineering.<br>GPA : 9.17 / 10</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>2014 - 2016</p>
-							<div class="h5">High School</div>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Science and Mathematics</div>
-							<p class="category">O. P. Jindal School, Raigarh</p>
-							<p>Completed my 12th standard degree through AISSCE (All India Senior School
-								Certificate Examination) conducted by CBSE (Central board of secondary
-								education).<br>
-								Score : 83 %</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<p>2012 - 2014</p>
-							<div class="h5">Matriculation</div>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<div class="h5">Science</div>
-							<p class="category">O. P. Jindal School, Raigarh</p>
-							<p>Completed my 10th standard degree through AISSE (All India Secondary School
-								Examination) conducted by CBSE (Central board of secondary education).<br>
-								Score : 9.4 / 10.0</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="section" id="projects">
-		<div class="container cc-education">
-			<div class="h4 text-center mb-4 title">Projects</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<div class="h5">Dumb TF</div>
-							<a class="cc-github btn btn-link" href="https://github.com/Sidray-Infinity/DumbTF" target="_blank">
-								<img border="0" src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<ul>
-								<li>Developed a deep learning library from scratch using only <b>NumPy</b>.</li>
-								<li>Benchmarked on MNIST, Boston Housing and other datasets.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<div class="h5">Chess Engine</div>
-							<a class="cc-github btn btn-link" href="https://github.com/Sidray-Infinity/ChessEngine" target="_blank">
-								<img border="0" src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<ul>
-								<li>Developed a chess engine using convolutional neural networks for optimal move predictions.</li>
-								<li>Deployed the engine on a web server with a user interface for interaction.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<div class="h5">Centralized P2P File Sharing</div>
-							<a class="cc-github btn btn-link" href="https://github.com/Sidray-Infinity/Centralized_P2P" target="_blank">
-								<img border="0" src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<ul>
-								<li>A file sharing system where each peer holds a block of the uploaded file.</li>
-								<li>The server handles registration and authentication of peers, and maintains a Distributed Hash Table.</li>
-								<li>Peers access the DHT to locate the various blocks of a file.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="row">
-					<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body cc-education-header">
-							<div class="h5">Autonomous Driving in Video Games</div>
-							<a class="cc-github btn btn-link" href="https://github.com/Sidray-Infinity/AutomateDriving" target="_blank">
-								<img border="0" src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-						<div class="card-body">
-							<ul>
-								<li>Implemented a model that predicts the movement of a vehicle based on the input frame from the video game.</li>
-								<li>The predicted movement is simulated, which then drives the vehicle.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	</div>
-	<!-- <div class="section">
-                <div class="container cc-education">
-                    <div class="h4 text-center mb-4 title">Course Projects</div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                                data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>March, 2018 - April, 2018</p>
-                                    <div class="h5">Computer Architecture</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Multicycle ARM Processor</div>
-                                    <p class="category">Prof. Anshul Kumar</p>
-                                    <p>
-                                        Developed a Multicycle processor for the ARM ISA in VHDL on FPGA, implementing
-                                        AHB Lite Bus for connections.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div> -->
-	<!-- <div class="section">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>March 2016 - Present</p>
-            <div class="h5">CreativeM</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Front End Developer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>April 2014 - March 2016</p>
-            <div class="h5">WebNote</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Web Developer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>April 2013 - February 2014</p>
-            <div class="h5">WEBM</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Intern</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-	<<!-- div class="section" id="reference">
-		<div class="container cc-reference">
-			<div class="h4 mb-4 text-center title">References</div>
-			<div class="card" data-aos="zoom-in">
-				<div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-						<li data-target="#cc-Indicators" data-slide-to="1"></li>
-						<li data-target="#cc-Indicators" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="row">
-								<div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg"
-										alt="Image" />
-									<div class="h5 pt-2">Aiyana</div>
-									<p class="category">CEO / WEBM</p>
-								</div>
-								<div class="col-lg-10 col-md-9">
-									<p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin
-										ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis
-										platea convallis, tortor primis ac quisque etiam luctus nisl nullam
-										fames. Ligula purus suscipit tempus nascetur curabitur donec nam
-										ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum
-										ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row">
-								<div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg"
-										alt="Image" />
-									<div class="h5 pt-2">Braiden</div>
-									<p class="category">CEO / Creativem</p>
-								</div>
-								<div class="col-lg-10 col-md-9">
-									<p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin
-										ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis
-										platea convallis, tortor primis ac quisque etiam luctus nisl nullam
-										fames. Ligula purus suscipit tempus nascetur curabitur donec nam
-										ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum
-										ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row">
-								<div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg"
-										alt="Image" />
-									<div class="h5 pt-2">Alexander</div>
-									<p class="category">CEO / Webnote</p>
-								</div>
-								<div class="col-lg-10 col-md-9">
-									<p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin
-										ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis
-										platea convallis, tortor primis ac quisque etiam luctus nisl nullam
-										fames. Ligula purus suscipit tempus nascetur curabitur donec nam
-										ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum
-										ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-								</div>
-							</div>
-						</div>
+				<dl class="stats reveal">
+					<div class="stat">
+						<dt>Events a day through systems I work on</dt>
+						<dd class="grad-text">1T+</dd>
 					</div>
-				</div>
-			</div>
-		</div>
-		</div> -->
-		<div class="section" id="contact">
-			<div class="cc-contact-information" style="background-image: url('images/bg.jpg');">
-				<div class="container">
-					<div class="cc-contact">
-						<div class="row">
-							<div class="col-md-9">
-								<div class="card mb-0" data-aos="zoom-in">
-									<div class="h4 text-center title">Contact Me</div>
-									<div class="row">
-										<div class="col-md-6">
-											<div class="card-body">
-												<form action="https://formspree.io/xleneovd" method="POST">
-													<div class="p pb-3"><strong>Feel free to contact me </strong></div>
-													<div class="row mb-3">
-														<div class="col">
-															<div class="input-group"><span class="input-group-addon"><i
-																		class="fa fa-user-circle"></i></span>
-																<input class="form-control" type="text" name="name" placeholder="Name"
-																	required="required" />
-															</div>
-														</div>
-													</div>
-													<div class="row mb-3">
-														<div class="col">
-															<div class="input-group"><span class="input-group-addon"><i
-																		class="fa fa-file-text"></i></span>
-																<input class="form-control" type="text" name="Subject" placeholder="Subject"
-																	required="required" />
-															</div>
-														</div>
-													</div>
-													<div class="row mb-3">
-														<div class="col">
-															<div class="input-group"><span class="input-group-addon"><i
-																		class="fa fa-envelope"></i></span>
-																<input class="form-control" type="email" name="_replyto" placeholder="E-mail"
-																	required="required" />
-															</div>
-														</div>
-													</div>
-													<div class="row mb-3">
-														<div class="col">
-															<div class="form-group">
-																<textarea class="form-control" name="message" placeholder="Your Message"
-																	required="required"></textarea>
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col">
-															<button class="btn btn-primary" type="submit">Send</button>
-														</div>
-													</div>
-												</form>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="card-body">
-												<p class="mb-0"><strong>Location</strong></p>
-												<p class="pb-2">Bangalore, India</p>
-												<p class="mb-0"><strong>Email</strong></p>
-												<p class="pb-2"><a href="mailto:sidkiit12@gmail.com">sidkiit12@gmail.com</a></p>
-												<p class="mb-0"><strong>Elsewhere</strong></p>
-												<p><a href="https://www.linkedin.com/in/siddharthpandaa/"
-														target="_blank">LinkedIn</a><br><a href="https://github.com/Sidray-Infinity"
-														target="_blank">GitHub</a><br><a href="https://x.com/SiddhartPanda09"
-														target="_blank">X</a></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="stat">
+						<dt>Loan repayment rate lift at Grab</dt>
+						<dd class="grad-text">+1.2pp</dd>
 					</div>
-				</div>
+					<div class="stat">
+						<dt>Added loan disbursal from a product I launched</dt>
+						<dd class="grad-text">~S$2M</dd>
+					</div>
+					<div class="stat">
+						<dt>P95 queries over billions of records</dt>
+						<dd class="grad-text">&lt;100ms</dd>
+					</div>
+				</dl>
 			</div>
-		</div>
-		</div>
-		</div>
-		<footer class="footer">
-			<div class="container text-center">
-				<a class="cc-github btn btn-link" href="https://github.com/Sidray-Infinity" target="_blank"><i
-						class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-				<a class="cc-linkedin btn btn-link " href="https://www.linkedin.com/in/siddharthpandaa/"
-					target="_blank"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
-				<a class="cc-twitter btn btn-link " href="https://x.com/SiddhartPanda09" target="_blank"><i
-						class="fa fa-twitter fa-2x " aria-hidden="true"></i></a>
-			</div>
-			<div class="h4 title text-center">Siddharth Panda</div>
-			<div class="text-center text-muted">
-				<p>&copy; Siddharth Panda. All rights reserved</p>
-			</div>
+		</section>
 
-		</footer>
-		<script src="js/core/jquery.3.2.1.min.js"></script>
-		<script src="js/core/popper.min.js"></script>
-		<script src="js/core/bootstrap.min.js"></script>
-		<script src="js/now-ui-kit.js?v=1.1.0"></script>
-		<script src="js/aos.js"></script>
-		<script src="scripts/main.js"></script>
+		<section id="about">
+			<div class="container about-grid">
+				<div class="reveal">
+					<p class="eyebrow">About</p>
+					<h2>Owner by default. Curious by nature.</h2>
+					<div class="prose">
+						<p>I'm a Senior Software Engineer at LinkedIn. I've shipped across fintech, real-time infrastructure,
+							recommendations and ML — I pick up new domains fast and own the outcome, not just the code.</p>
+						<p>I care about quality: systems that are correct, fast and easy to run in production.</p>
+					</div>
+				</div>
+				<aside class="card facts reveal" aria-label="Basic information">
+					<dl>
+						<div><dt>Role</dt><dd>Senior Software Engineer, LinkedIn</dd></div>
+						<div><dt>Domains</dt><dd>Fintech, real-time systems, ML</dd></div>
+						<div><dt>Location</dt><dd>Bangalore, India</dd></div>
+						<div><dt>Email</dt><dd><a href="mailto:sidkiit12@gmail.com">sidkiit12@gmail.com</a></dd></div>
+						<div><dt>Languages</dt><dd>English, Hindi, Odiya</dd></div>
+						<div><dt>Profiles</dt><dd><a href="https://www.linkedin.com/in/siddharthpandaa/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/Sidray-Infinity" target="_blank" rel="noopener">GitHub</a> · <a href="https://x.com/SiddhartPanda09" target="_blank" rel="noopener">X</a></dd></div>
+					</dl>
+					<a class="btn btn-primary btn-block" href="data/Siddharth_Panda_Resume.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-download" /></svg> Download my resume</a>
+				</aside>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="container">
+				<header class="section-head reveal">
+					<p class="eyebrow">Skills</p>
+					<h2>What I bring</h2>
+				</header>
+				<div class="grid grid-3">
+					<article class="card skill reveal"><span class="num">01</span><h3>Ownership</h3><p>From problem to production, and what happens after launch.</p></article>
+					<article class="card skill reveal"><span class="num">02</span><h3>Quality</h3><p>Correct, fast, well-tested systems.</p></article>
+					<article class="card skill reveal"><span class="num">03</span><h3>Range</h3><p>Fintech, real-time infrastructure, recommendations, ML, computer vision.</p></article>
+					<article class="card skill reveal"><span class="num">04</span><h3>Curiosity</h3><p>I learn from first principles — like building a deep learning framework from scratch.</p></article>
+					<article class="card skill reveal"><span class="num">05</span><h3>Backend &amp; Distributed Systems</h3><p>Go, Java, Kafka, Flink, Kubernetes.</p></article>
+					<article class="card skill reveal"><span class="num">06</span><h3>AI-native Development</h3><p>MCP, agentic workflows, Copilot, Claude Code.</p></article>
+				</div>
+
+				<div class="card stack reveal">
+					<div>
+						<h3>Languages</h3>
+						<ul class="tags"><li>Go</li><li>Java</li><li>Python</li><li>C++</li><li>Scala</li><li>Rust</li><li>SQL</li></ul>
+					</div>
+					<div>
+						<h3>Systems &amp; Frameworks</h3>
+						<ul class="tags"><li>Kafka</li><li>Flink</li><li>Spark</li><li>Samza</li><li>Airflow</li><li>REST APIs</li></ul>
+					</div>
+					<div>
+						<h3>Infrastructure &amp; Storage</h3>
+						<ul class="tags"><li>Kubernetes</li><li>Docker</li><li>CI/CD</li><li>MySQL</li><li>Elasticsearch</li><li>Apache Pinot</li></ul>
+					</div>
+					<div>
+						<h3>AI &amp; Developer Tools</h3>
+						<ul class="tags"><li>MCP</li><li>GitHub Copilot</li><li>Cursor</li><li>Claude Code</li></ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience">
+			<div class="container">
+				<header class="section-head reveal">
+					<p class="eyebrow">Experience</p>
+					<h2>Where I've worked</h2>
+				</header>
+
+				<div class="jobs">
+					<article class="card job reveal">
+						<div class="org">
+							<img class="logo" src="images/logos/linkedin.svg" alt="" width="52" height="52">
+							<div>
+								<h3>LinkedIn</h3>
+								<p class="when">May 2024 — Present</p>
+							</div>
+						</div>
+						<div class="roles">
+							<div class="role">
+								<h4>Senior Software Engineer</h4>
+								<p class="when">Apr 2026 — Present</p>
+								<ul>
+									<li>Fed real-time signals into LinkedIn's <b>feed recommendation engine</b>.</li>
+									<li>Built <b>Cost-to-Track</b>: cost attribution across Kafka/Flink tiers, with <b>sub-100ms P95</b> queries over billions of records on Apache Pinot.</li>
+									<li>Built a config-driven <b>event enrichment</b> system on Flink, cutting onboarding from ~2 days to ~1 hour.</li>
+									<li>Built a <b>Tracking MCP server</b> so AI agents can automate event onboarding.</li>
+								</ul>
+							</div>
+							<div class="role">
+								<h4>Software Engineer</h4>
+								<p class="when">May 2024 — Mar 2026</p>
+								<ul>
+									<li>Ran telemetry infrastructure at <b>1T+ events a day</b>; cut regression detection from days to minutes.</li>
+									<li>Led the <b>Samza → Flink migration</b>: 12 jobs at 97% performance parity.</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+
+					<article class="card job reveal">
+						<div class="org">
+							<img class="logo" src="images/logos/grab.png" alt="" width="52" height="52">
+							<div>
+								<h3>Grab</h3>
+								<p class="when">Aug 2021 — Apr 2024</p>
+							</div>
+						</div>
+						<div class="roles">
+							<div class="role">
+								<h4>Senior Software Engineer</h4>
+								<p class="when">Mar 2023 — Apr 2024</p>
+								<ul>
+									<li>Lifted loan repayment rate by <b>1.2pp</b> with a Kafka-based notification system, shaped with PMs.</li>
+									<li>Launched a <b>line-of-credit</b> product by restructuring existing loans — <b>~S$2M</b> more disbursal.</li>
+								</ul>
+							</div>
+							<div class="role">
+								<h4>Software Engineer</h4>
+								<p class="when">Aug 2021 — Mar 2023</p>
+								<ul>
+									<li>Re-architected auto-deduction: batch runtime <b>1.5h → 20min</b>.</li>
+									<li>Built CI/CD for post-borrowing services, halving QA regression time.</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<h3 class="subhead reveal">Internships</h3>
+				<div class="grid grid-3">
+					<article class="card intern reveal">
+						<div class="org">
+							<img class="logo logo-sm" src="images/logos/grab.png" alt="" width="40" height="40">
+							<div>
+								<h4>Grab</h4>
+								<p class="when">May 2021 — Aug 2021</p>
+							</div>
+						</div>
+						<p class="role-title">Software Engineer Intern</p>
+						<ul>
+							<li>Raised test coverage to ~95% across microservices.</li>
+							<li>Helped launch 2 cash-loan products with the Julo team in Indonesia.</li>
+						</ul>
+					</article>
+					<article class="card intern reveal">
+						<div class="org">
+							<img class="logo logo-sm" src="images/logos/highradius.png" alt="" width="40" height="40">
+							<div>
+								<h4>HighRadius Corp.</h4>
+								<p class="when">Jul 2020 — Apr 2021</p>
+							</div>
+						</div>
+						<p class="role-title">Software Engineer Intern <span>B2B invoice management</span></p>
+						<ul>
+							<li>Automated PII encryption: environment cloning <b>2h → 5min</b>.</li>
+							<li>Built a full-stack invoice app with React and Java.</li>
+							<li>Deployed an ML payment-prediction model.</li>
+						</ul>
+					</article>
+					<article class="card intern reveal">
+						<div class="org">
+							<img class="logo logo-sm logo-wide" src="images/logos/khoslalabs.png?v=2" alt="" width="80" height="40">
+							<div>
+								<h4>Khosla Labs Pvt. Ltd.</h4>
+								<p class="when">May 2019 — Jul 2019</p>
+							</div>
+						</div>
+						<p class="role-title">Software Engineer &amp; ML Intern <span>Document capture &amp; OCR</span></p>
+						<ul>
+							<li>Built ID-card capture with <b>OpenCV</b> and OCR via Google Vision.</li>
+							<li>Shipped it as an Android app.</li>
+						</ul>
+						<a class="text-link" href="data/internship.pdf" target="_blank" rel="noopener">Internship certificate <svg class="icon"><use href="#i-external" /></svg></a>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="education">
+			<div class="container">
+				<header class="section-head reveal">
+					<p class="eyebrow">Education</p>
+					<h2>Education</h2>
+				</header>
+				<div class="grid grid-3">
+					<article class="card edu reveal">
+						<p class="when">2017 — 2021 · Bachelor's Degree</p>
+						<h3>B.Tech in Computer Science &amp; Engineering</h3>
+						<p class="muted">Kalinga Institute of Industrial Technology, Bhubaneswar</p>
+						<p class="score"><span>GPA</span> 9.17 / 10</p>
+					</article>
+					<article class="card edu reveal">
+						<p class="when">2014 — 2016 · High School</p>
+						<h3>Science and Mathematics</h3>
+						<p class="muted">O. P. Jindal School, Raigarh — Class 12, AISSCE (CBSE)</p>
+						<p class="score"><span>Score</span> 83%</p>
+					</article>
+					<article class="card edu reveal">
+						<p class="when">2012 — 2014 · Matriculation</p>
+						<h3>Science</h3>
+						<p class="muted">O. P. Jindal School, Raigarh — Class 10, AISSE (CBSE)</p>
+						<p class="score"><span>Score</span> 9.4 / 10</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects">
+			<div class="container">
+				<header class="section-head reveal">
+					<p class="eyebrow">Projects</p>
+					<h2>Things I've built</h2>
+				</header>
+				<div class="grid grid-2">
+					<article class="card project reveal">
+						<svg class="icon project-icon" aria-hidden="true"><use href="#i-github" /></svg>
+						<h3><a class="stretched" href="https://github.com/Sidray-Infinity/DumbTF" target="_blank" rel="noopener">Dumb TF</a></h3>
+						<p>Deep learning framework with autograd, built from scratch on NumPy.</p>
+						<ul class="tags"><li>Python</li><li>NumPy</li><li>Deep learning</li></ul>
+					</article>
+					<article class="card project reveal">
+						<svg class="icon project-icon" aria-hidden="true"><use href="#i-github" /></svg>
+						<h3><a class="stretched" href="https://github.com/Sidray-Infinity/ChessEngine" target="_blank" rel="noopener">Chess Engine</a></h3>
+						<p>CNN-based move prediction, playable through a web UI.</p>
+						<ul class="tags"><li>CNN</li><li>Deep learning</li><li>Web</li></ul>
+					</article>
+					<article class="card project reveal">
+						<svg class="icon project-icon" aria-hidden="true"><use href="#i-github" /></svg>
+						<h3><a class="stretched" href="https://github.com/Sidray-Infinity/Centralized_P2P" target="_blank" rel="noopener">Centralized P2P File Sharing</a></h3>
+						<p>Peer-to-peer file sharing, with a DHT to locate file blocks.</p>
+						<ul class="tags"><li>Networking</li><li>DHT</li><li>Distributed systems</li></ul>
+					</article>
+					<article class="card project reveal">
+						<svg class="icon project-icon" aria-hidden="true"><use href="#i-github" /></svg>
+						<h3><a class="stretched" href="https://github.com/Sidray-Infinity/AutomateDriving" target="_blank" rel="noopener">Autonomous Driving in Video Games</a></h3>
+						<p>A vision model that drives a video-game car from screen frames.</p>
+						<ul class="tags"><li>Computer vision</li><li>Machine learning</li></ul>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<div class="card contact reveal">
+					<div>
+						<p class="eyebrow">Contact</p>
+						<h2>Let's talk</h2>
+						<p class="muted">Have a hard problem or an opportunity? Say hi.</p>
+						<ul class="contact-list">
+							<li><svg class="icon"><use href="#i-mail" /></svg><a href="mailto:sidkiit12@gmail.com">sidkiit12@gmail.com</a></li>
+							<li><svg class="icon"><use href="#i-pin" /></svg>Bangalore, India</li>
+							<li><svg class="icon"><use href="#i-linkedin" /></svg><a href="https://www.linkedin.com/in/siddharthpandaa/" target="_blank" rel="noopener">LinkedIn</a></li>
+							<li><svg class="icon"><use href="#i-github" /></svg><a href="https://github.com/Sidray-Infinity" target="_blank" rel="noopener">GitHub</a></li>
+							<li><svg class="icon"><use href="#i-x" /></svg><a href="https://x.com/SiddhartPanda09" target="_blank" rel="noopener">X</a></li>
+						</ul>
+					</div>
+					<form class="form" action="https://formspree.io/xleneovd" method="POST">
+						<div class="form-row">
+							<label>Name <input type="text" name="name" autocomplete="name" required></label>
+							<label>Email <input type="email" name="_replyto" autocomplete="email" required></label>
+						</div>
+						<label>Subject <input type="text" name="Subject" required></label>
+						<label>Message <textarea name="message" rows="5" required></textarea></label>
+						<button class="btn btn-primary" type="submit">Send message <svg class="icon"><use href="#i-arrow" /></svg></button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container footer-inner">
+			<p>&copy; Siddharth Panda. All rights reserved.</p>
+			<a href="#top">Back to top ↑</a>
+		</div>
+	</footer>
 </body>
 
 </html>
