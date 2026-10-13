@@ -7700,6 +7700,8 @@ Created using IcoMoon - icomoon.io
     padding: 0;
     margin: 0;
     border: 15px solid transparent;
+    object-fit: cover;
+    object-position: center 30%;
     z-index: 9999;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
